@@ -56,6 +56,10 @@ font-size:42px;
 #about .btn{
     margin-top:20px;
     margin-bottom:30px;
+    background: #8B4513 !important;
+}
+#about .btn:hover{
+    border:solid rgb(212, 144, 95) 2px !important;
 }
 .about-content{
     padding-top:20px;
@@ -109,4 +113,23 @@ font-size:42px;
     background: #8B4513;
     cursor: pointer;
     transition: 0.7s;
+}
+/* TEAM MEMBERS */
+#team{
+    padding-top:50px;
+    padding-bottom: 50px;
+    color:#555;
+}
+h1{
+    text-align: center;
+    color:#555 !important;
+    padding-bottom: 10px;;
+}
+h1::after{
+    content:' ';
+    background: #8B4513;
+    display:block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
 }
