@@ -27,7 +27,7 @@
 .nav-link{
     color: #555 !important;
     font-weight:600;
-    font-size:25px;
+    font-size:20px;
 }
 /* SLIDER */
 #slider{
@@ -46,4 +46,17 @@
 .carousel-caption h5{
 color:#fff;
 font-size:42px;
+}
+/* ABOUT */
+#about{
+    padding-top:50px;
+    padding-bottom: 50px;
+    color:#555;
+}
+#about .btn{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.about-content{
+    padding-top:20px;
 }
