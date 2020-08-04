@@ -100,4 +100,13 @@ font-size:42px;
     align-items: center;
     margin-top:40px ;
 }
-
+#servies p{
+    font-size:14px;
+    margin-top:20px;
+    color: #ccc;
+}
+.services .col-md-3:hover {
+    background: #8B4513;
+    cursor: pointer;
+    transition: 0.7s;
+}
