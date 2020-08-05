@@ -136,11 +136,18 @@ h1::after{
 }
 .profile-pic{
     margin-top:25px;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
 }
 .profile-pic .img-box{
     opacity:1;
     display:block;
     position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
 .profile-pic .img-box img{
     filter: grayscale(1);
@@ -149,6 +156,8 @@ h1::after{
     filter: grayscale(0);
     cursor:pointer;
 }
+
+
 .profile-pic h2{
     font-size:22px;
     font-weight: bold;
@@ -159,7 +168,9 @@ h1::after{
     font-size:15px;
     font-weight: bold;
     margin-top: 15px;
+    
 }
+
 #team .fa{
     height:25px;
     width: 25px;
@@ -168,6 +179,7 @@ h1::after{
     padding:4px;
     border-radius:50%;
 }
+
 .img-box ul{
     padding:15px 0;
     position: absolute;
@@ -176,6 +188,7 @@ h1::after{
     left:50%;
     transform: translateX(-50%);
     opacity:0;
+  
 }
 .img-box ul li{
     padding:5px;
@@ -187,6 +200,16 @@ h1::after{
 .img-box ul, .img-box ul li{
     transition:0.5s;
 } 
-
-
+/* PROMO */
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/charlotte.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding:100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
 
