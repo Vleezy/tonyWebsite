@@ -34,13 +34,19 @@
               <a class="nav-link" href="#">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">GALLERY</a>
+              <a class="nav-link" href="#services">SERVICES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#team">TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">QUOTES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -358,5 +364,9 @@
 
 <!-- JAVASCRIPT -->
 <script src="js/smooth-scroll.js"></script>
+<!-- Initializes Smooth Scroll by passing in a selector for the anchor links. -->
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 </body>
 </html>
