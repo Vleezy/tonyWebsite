@@ -372,3 +372,40 @@ blockquote::after{
     cursor: pointer;
     transition: 0.5s;
 }
+
+/* CONTACT */
+#contact{
+    background:#efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#777;
+}
+.contact-form{
+    padding:15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border:none !important;
+}
+::placeholder{
+    color:#999 !important;
+
+}
+.follow{
+    background:#8B4513;
+    color:white;
+    padding:10px;
+    margin:15px;
+}
+.contact-info .fa{
+    margin:10px;
+    color:#007bff;
+    font-weight:bold;
+}
+
+/* FOOTER */
+#footer{
+    background: #333;
+    color:#fff;
+    padding:12px;
+}
