@@ -383,6 +383,13 @@ blockquote::after{
     padding-bottom: 40px;
     color:#777;
 }
+#contact .btn{
+    background: #8B4513 !important;
+    border:solid #cc7722 2px;
+}
+#contact .btn:hover{
+    background: #cc7722 !important;
+}
 .contact-form{
     padding:15px;
 }
